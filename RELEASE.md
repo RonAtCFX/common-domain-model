@@ -2,11 +2,11 @@
 
 _What is being released?_
 
-This release updates the `rosetta-dsl` dependency:
+This release updates the following dependencies:
 
-- Version `7.4.0`:
-    - Rosetta models generated from an xsd
-    - Bug fix related to code-generated Java that avoids keyword clashes
+* `rosetta-dsl` - `7.8.0`: Logging implementations removed from classpath to allow Java users of the CDM to select their own logging implementation
+
+* `rosetta-bundle` - `6.6.0`: Includes a fix for the model enum generator (a scheme import test) specific for Microsoft Windows
 
 This release contains no changes to the model or test expectations.
 
